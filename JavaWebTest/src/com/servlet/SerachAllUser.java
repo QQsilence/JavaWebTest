@@ -79,7 +79,7 @@ public class SerachAllUser extends HttpServlet {
 
 		response.setCharacterEncoding("UTF8"); // this line solves the problem
 		PrintWriter out = response.getWriter();
-//测试下git的pull功能
+//测试下git的fenth功能
 		try {
 			InitialContext initC = new InitialContext();// 创建InitialContext对象
 			if (initC == null) {
